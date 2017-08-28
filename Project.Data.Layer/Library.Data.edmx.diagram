@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6410034552ae4793891d3d18d8e6ed6d" Name="Diagram1">
+        <EntityTypeShape EntityType="Project.Data.Layer.Author" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Project.Data.Layer.Book" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Project.Data.Layer.Reader" Width="1.5" PointX="3" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Project.Data.Layer.ReadingLog" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="Project.Data.Layer.FK__Books__AuthorId__267ABA7A" ManuallyRouted="false" />
+        <AssociationConnector Association="Project.Data.Layer.FK__ReadingLo__BookI__36B12243" ManuallyRouted="false" />
+        <AssociationConnector Association="Project.Data.Layer.FK__ReadingLo__Reade__37A5467C" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
