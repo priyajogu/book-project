@@ -48,7 +48,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AuthorDuties.cs" />
+    <Compile Include="BookActions.cs" />
     <Compile Include="Models\AuthorModel.cs" />
+    <Compile Include="Models\BookModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
